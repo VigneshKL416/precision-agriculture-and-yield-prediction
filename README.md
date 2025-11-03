@@ -12,21 +12,46 @@ By analyzing various agricultural parameters such as soil health, weather condit
 - To support **smart farming practices** using data-driven insights.
 
 ---
+## 📊 Dataset Description
 
-## 🧩 Dataset Description
-The dataset used in this project contains information such as:
-- 🌱 **Crop Type**
-- 🌤 **Temperature (°C)**
-- 💧 **Rainfall (mm)**
-- 🌡 **Humidity (%)**
-- 🌾 **Soil Type / pH**
-- 🧮 **Fertilizer Usage**
-- 📈 **Crop Yield (kg/hectare)**  
+The dataset used in this project contains agricultural data collected from various regions to predict crop yield.  
+Each record represents a unique combination of environmental, soil, and cultivation parameters.
 
-**Source:** Publicly available dataset from [Kaggle](https://www.kaggle.com) or other open agricultural datasets.
+| Feature | Description | Data Type | Example |
+|----------|--------------|------------|----------|
+| **Region** | Geographic area where crops are cultivated | Categorical | South, North, East |
+| **Soil_Type** | Type of soil in the region | Categorical | Loamy, Sandy, Clay |
+| **Crop** | Type of crop being cultivated | Categorical | Rice, Wheat, Maize |
+| **Rainfall_mm** | Total rainfall during the cultivation period (in millimeters) | Numerical | 425 |
+| **Temperature_Celsius** | Average temperature during the growth period (°C) | Numerical | 28 |
+| **Fertilizer_Used** | Amount of fertilizer applied (kg/hectare) | Numerical | 120 |
+| **Irrigation_Used** | Type of irrigation used | Categorical | Drip, Sprinkler, Canal |
+| **Weather_Condition** | General weather condition during crop growth | Categorical | Sunny, Cloudy, Rainy |
+| **Days_to_Harvest** | Number of days required for crop maturity | Numerical | 120 |
+| **Yield_tons_per_hectare** | Final yield produced per hectare (Target variable) | Numerical | 3.5 |
+
+### 🔍 Insights:
+- The dataset combines **environmental** and **management factors** affecting crop production.  
+- Features like **Rainfall**, **Temperature**, and **Fertilizer Used** show a strong correlation with yield.  
+- The target variable (**Yield_tons_per_hectare**) helps in evaluating model accuracy for prediction.
 
 ---
 
+### 💾 File Format
+- File Name: `agriculture_data.csv`  
+- Format: CSV (Comma Separated Values)  
+- Rows: *n* (number of observations)  
+- Columns: 10  
+
+---
+
+### 📈 Example Row
+
+| Region | Soil_Type | Crop | Rainfall_mm | Temperature_Celsius | Fertilizer_Used | Irrigation_Used | Weather_Condition | Days_to_Harvest | Yield_tons_per_hectare |
+|---------|------------|------|--------------|----------------------|------------------|------------------|-------------------|------------------|-------------------------|
+| South | Loamy | Rice | 420 | 29 | 110 | Drip | Sunny | 120 | 3.8 |
+
+---
 ## ⚙️ Tools & Technologies
 - **Programming Language:** Python  
 - **Notebook Environment:** Jupyter Notebook  
