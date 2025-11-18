@@ -82,5 +82,4 @@ Each record represents a unique combination of environmental, soil, and cultivat
 ---
 
 ## 🚀 How to Run the Project
-1. Clone the repository:
-   https://github.com/VigneshKL416/Precision-Agriculture-and-Yield-Prediction.git
+1. Clone the repository:https://github.com/VigneshKL416/Precision-Agriculture-and-Yield-Prediction.git
