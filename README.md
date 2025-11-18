@@ -22,7 +22,7 @@ Each record represents a unique combination of environmental, soil, and cultivat
 | **Region** | Geographic area where crops are cultivated | Categorical | South, North, East |
 | **Soil_Type** | Type of soil in the region | Categorical | Loamy, Sandy, Clay |
 | **Crop** | Type of crop being cultivated | Categorical | Rice, Wheat, Maize |
-| **Rainfall_mm** | Total rainfall during the cultivation period (in millimeters) | Numerical | 425 |
+| **Rainfall_mm** | Total rainfall during the cultivation period (in millimeters) | Numerical | 25 |
 | **Temperature_Celsius** | Average temperature during the growth period (°C) | Numerical | 28 |
 | **Fertilizer_Used** | Amount of fertilizer applied (kg/hectare) | Numerical | 120 |
 | **Irrigation_Used** | Type of irrigation used | Categorical | Drip, Sprinkler, Canal |
